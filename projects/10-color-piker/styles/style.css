@@ -1,0 +1,46 @@
+/* Restablecer estilos por defecto */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 30px;
+  background-color: #f7f7f7;
+  font-size: 18px;
+  display: grid;
+  place-items: center;
+}
+
+h1 {
+  font-size: 1.7em;
+    text-align: center;
+}
+
+.color-picker-container {
+  padding: 1em;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Define columns for color picker and selected color */
+  gap: 1em; /* Add gap between elements */
+}
+
+#color-picker {
+  width: 100%; /* Match container width */
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 1em;
+}
+
+#selected-color {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 0.7em;
+  background-color: #fff;
+}
