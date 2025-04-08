@@ -1,9 +1,7 @@
-# Apuntes 🤘
-
-# Conceptos importantes
+# Bases
 **Algoritmo:** instrucciones ordenadas para resolver un problema.
 
-**Lenguajes de programación:** reglas para dar instrucciones al PC:
+**Lenguajes de programación:** reglas para dar instruccionesq
   *Bajo nivel*
   - Lenguaje nativo del PC, es decir pogramar componentes.
   *Alto nivel*
